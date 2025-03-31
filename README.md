@@ -1,14 +1,30 @@
 # Waktu Solat CLI
 
 - [Waktu Solat CLI](#waktu-solat-cli)
+  - [About](#about)
   - [Install](#install)
+    - [Homebrew](#homebrew)
     - [Script](#script)
     - [Build from source](#build-from-source)
   - [Credits](#credits)
 
+## About
+
+TODO
+
 ## Install
 
 There are multiple ways to get this CLI installed:
+
+### Homebrew
+
+> You must have [Homebrew](https://brew.sh) installed first
+
+```sh
+brew tap waktusolatmy/tools
+brew install waktusolat
+waktusolat version
+```
 
 ### Script
 
@@ -17,6 +33,8 @@ curl -sfL https://raw.githubusercontent.com/waktusolatmy/cli/refs/heads/master/i
 ```
 
 ### Build from source
+
+> You must have [Go](https://go.dev) installed first
 
 ```sh
 git clone https://github.com/waktusolatmy/cli.git
