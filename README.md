@@ -21,7 +21,9 @@ There are multiple ways to get this CLI installed:
 > You must have [Homebrew](https://brew.sh) installed first
 
 ```sh
+brew untap waktusolatmy/tools &>/dev/null || true
 brew tap waktusolatmy/tools
+
 brew install waktusolat
 waktusolat version
 ```
