@@ -12,6 +12,7 @@
     - [View default zone](#view-default-zone)
     - [Get waktu solat using default zone](#get-waktu-solat-using-default-zone)
     - [Get waktu solat for a specific zone (skip default zone)](#get-waktu-solat-for-a-specific-zone-skip-default-zone)
+    - [Check CLI version](#check-cli-version)
   - [Credits](#credits)
 
 ## About
@@ -205,6 +206,25 @@ $ waktusolat -z WLY01 -o json
     "maghrib": "7:24PM",
     "isyak": "8:33PM"
 }
+```
+
+### Check CLI version
+
+**Command**
+
+```sh
+waktusolat version
+```
+
+**Example**
+
+```
+$ waktusolat version     
+CLI version: v0.0.5
+Go version: go1.24.1
+Build date: 2025-03-31T14:43:45Z
+Git commit: f152151fe8638ad09835f2b6b21eb0d98b1ea684
+OS/Arch: linux/amd64
 ```
 
 ## Credits
