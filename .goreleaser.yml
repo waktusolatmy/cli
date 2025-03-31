@@ -33,3 +33,14 @@ archives:
     format_overrides:
       - goos: windows
         format: zip
+brews:
+  - name: waktusolat
+    tap:
+      owner: waktusolatmy
+      name: homebrew-tools
+    commit_author:
+      name: goreleaserbot
+      email: bot@goreleaser.com
+    folder: Formula
+    homepage: "https://github.com/waktusolatmy/cli"
+    description: "Waktu Solat CLI"
